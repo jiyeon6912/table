@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  /* 1rem= 16px 브라우저의 기본 글자 픽셀 */
+}
+
+table {
+  /* font-family: arial, sans-serif; */
+  border-collapse: collapse;
+  width: 100%;
+  /* width: 50%; width: 1000px; width: 500px; */
+  margin-bottom: 3rem;
+}
+
+/* 테이블1 */
+.tbl-01 td,
+.tbl-01 th {
+  /* border: 1px solid #ccc; */
+  border: 2px solid red;
+  /* text-align: left; */
+  padding: 8px;
+}
+
+.tbl-01 th {
+  /* background: #efefef; */
+  background: blueviolet;
+}
+
+/* td,
+th {
+  border: 1px solid #ccc;
+  /* text-align: left;
+  padding: 8px;
+} */
+
+/* .tbl-01 tr:nth-child(even) {
+  background-color: #efefef;
+  background-color: yellow;
+} */
+
+/* even 짝수번째 odd 홀수번째 */
+/* table> tr(줄) td (칸) , th (테이블 제목으로 굵게 표시됨)*/
+
+/* 테이블2 */
+.tbl-02 td,
+.tbl-02 th {
+  /* border: 1px solid #ccc; */
+  border: 1px solid#333;
+  /* text-align: left; */
+  padding: 8px;
+  text-align: center;
+}
+
+.tbl-02 th {
+  /* background: #efefef; */
+  background: palevioletred;
+  border: 2px solid #333;
+}
+
+.tbl-02 tr:nth-child(even) {
+  background-color: #efefef;
+}
+
+/* 테이블3 */
+.tbl-03 td,
+.tbl-03 th {
+  border: 1px solid #ccc;
+  /* text-align: left; */
+  padding: 8px;
+  text-align: center;
+}
+
+.tbl-03 th {
+  background: wheat;
+}
+.tbl-03 tr:nth-child(1) th {
+  background: #333;
+  color: #fff;
+}
+
+/* tr:nth-child(even) {
+  background-color: #efefef;
+} */
+
+/* 테이블4 */
+.tbl-04 td,
+.tbl-04 th {
+  border: 1px solid #ccc;
+  /* border: 1px solid#333; */
+
+  padding: 8px;
+  text-align: center;
+}
+
+.tbl-04 th {
+  background: #333;
+  color: #fff;
+}
+
+/* 테이블5 */
+
+.tbl-05 td,
+.tbl-05 th {
+  border: 1px solid #ccc;
+  /* border: 1px solid#333; */
+
+  padding: 8px;
+  text-align: center;
+}
+
+.tbl-05 th {
+  background: #333;
+  color: #fff;
+}
