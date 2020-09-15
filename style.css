@@ -113,12 +113,14 @@ th {
 .tbl-05 th {
   border: 1px solid #ccc;
   /* border: 1px solid#333; */
-
   padding: 8px;
   text-align: center;
+  font-size: small;
 }
 
 .tbl-05 th {
-  background: #333;
+  /* background: #333; */
+  background: coral;
   color: #fff;
+  /* opacity: 50%; */
 }

@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 1rem 0;
+  /* margin-bottom: 1rem; */
+  /* 1rem= 16px 브라우저의 기본 글자 픽셀 */
+}
+
+table {
+  /* font-family: arial, sans-serif; */
+  border-collapse: collapse;
+  width: 100%;
+  /* width: 50%; width: 1000px; width: 500px; */
+  margin-bottom: 3rem;
+}
+
+/* 테이블4 */
+
+.tbl-04 {
+  border-top: 2px solid #666;
+}
+
+.tbl-04 td,
+.tbl-04 th {
+  /* border: 1px solid #ccc; */
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  padding: 8px;
+}
+
+.tbl-04 th {
+  background: #efefef;
+  /* background: blueviolet; */
+  /* border-bottom: 1px solid #ccc; */
+}
+
+/* 테이블5 */
+.tbl-05 {
+  border-top: 2px solid #666;
+  border-bottom: 2px solid #666;
+}
+
+.tbl-05 th {
+  background: #ccc;
+}
+.tbl-05 td,
+.tbl-05 th {
+  border: 1px solid #ccc;
+  /* border: 1px solid #666; */
+  border-left: none;
+  text-align: center;
+  padding: 8px;
+}
+
+.tbl-05 th:last-child,
+.tbl-05 td:last-child {
+  border-right: none;
+}
+
+/* 테이블6 */
+
+.tbl-06 td,
+.tbl-06 th {
+  /* border: 1px solid #ccc; */
+  border: 1px solid #ccc;
+  /* text-align: left; */
+  padding: 8px;
+  text-align: center;
+}
+
+.tbl-06 th {
+  background: #efefef;
+  /* background: blueviolet; */
+  /* border-bottom: 2px solid #666; */
+}
+
+/* 테이블7 */
+
+.tbl-07 td,
+.tbl-07 th {
+  /* border: 1px solid #ccc; */
+  border: 1px solid #ccc;
+  /* text-align: left; */
+  padding: 8px;
+  text-align: center;
+}
